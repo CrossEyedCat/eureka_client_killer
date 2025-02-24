@@ -11,3 +11,4 @@ ribbon:
   eureka:
     enabled: true
   ServerListRefreshInterval: 15000
+  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
