@@ -7,8 +7,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-ping-server:
-  ribbon:
-    eureka:
-      enabled: true
-    ServerListRefreshInterval: 15000
+ribbon:
+  eureka:
+    enabled: true
+  ServerListRefreshInterval: 15000
